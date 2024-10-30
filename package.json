@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "mongoose-schemas-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for managing Users and Articles, built with **Node.js**, **Express**, and **MongoDB**. This API demonstrates Mongoose schema creation and validation, complex data relationships, and structuring data models for efficient database management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env server.js",
+    "seed": "node --env-file=.env seed.js"
+  },
+  "keywords": [],
+  "author": "Anastasia [sevastyanova.anastasia1@gmail.com]",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anastasia2022be1/mongoose-schemas-api.git"
+  },
+  "homepage": "https://github.com/anastasia2022be1/mongoose-schemas-api#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  }
+}
